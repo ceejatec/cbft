@@ -3,6 +3,7 @@ module github.com/couchbase/cbft
 go 1.13
 
 require (
+	github.com/RoaringBitmap/roaring v0.5.5 // indirect
 	github.com/blevesearch/bleve-mapping-ui v0.4.0
 	github.com/blevesearch/bleve/v2 v2.0.3
 	github.com/blevesearch/bleve_index_api v1.0.0
@@ -13,26 +14,37 @@ require (
 	github.com/blevesearch/zapx/v14 v14.2.0
 	github.com/blevesearch/zapx/v15 v15.2.0
 	github.com/buger/jsonparser v1.1.1
-	github.com/couchbase/cbauth v0.0.0-20200508215310-0d352b097b19
-	github.com/couchbase/cbftx v0.0.0-00010101000000-000000000000
-	github.com/couchbase/cbgt v0.0.0-00010101000000-000000000000
+	github.com/couchbase/cbauth v0.0.0-20201026062450-0eaf917092a2
+	github.com/couchbase/cbftx v0.0.0-20210326203742-29e142235df3
+	github.com/couchbase/cbgt v0.0.0-20210412150823-5fbd5c755c7e
 	github.com/couchbase/clog v0.0.0-20190523192451-b8e6d5d421bc
-	github.com/couchbase/go-couchbase v0.0.0-20201026062457-7b3be89bbd89
-	github.com/couchbase/goutils v0.0.0-20201030094643-5e82bb967e67
+	github.com/couchbase/go-couchbase v0.0.0-20210330201927-1d32284da76d
+	github.com/couchbase/gomemcached v0.1.2 // indirect
+	github.com/couchbase/goutils v0.0.0-20210118111533-e33d3ffb5401
 	github.com/couchbase/moss v0.1.0
-	github.com/dustin/go-jsonpointer v0.0.0-20140810065344-75939f54b39e
-	github.com/dustin/gojson v0.0.0-20150115165335-af16e0e771e2 // indirect
-	github.com/elazarl/go-bindata-assetfs v1.0.0
-	github.com/golang/protobuf v1.4.0
+	github.com/dustin/go-jsonpointer v0.0.0-20160814072949-ba0abeacc3dc
+	github.com/dustin/gojson v0.0.0-20160307161227-2e71ec9dd5ad // indirect
+	github.com/elazarl/go-bindata-assetfs v1.0.1
+	github.com/glycerine/go-unsnap-stream v0.0.0-20210130063903-47dfef350d96 // indirect
+	github.com/golang/protobuf v1.5.2
+	github.com/golang/snappy v0.0.3 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
-	github.com/gorilla/mux v1.7.4
-	github.com/json-iterator/go v0.0.0-20171115153421-f7279a603ede
+	github.com/google/uuid v1.2.0 // indirect
+	github.com/gorilla/mux v1.8.0
+	github.com/json-iterator/go v1.1.10
 	github.com/julienschmidt/httprouter v1.1.1-0.20170430222011-975b5c4c7c21
-	github.com/rcrowley/go-metrics v0.0.0-20190826022208-cac0b30c2563
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.1 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/spf13/cobra v0.0.5
-	golang.org/x/net v0.0.0-20190311183353-d8887717615a
-	golang.org/x/sys v0.0.0-20200212091648-12a6c2dcc1e4
-	google.golang.org/grpc v1.24.0
+	github.com/tinylib/msgp v1.1.5 // indirect
+	github.com/willf/bitset v1.1.11 // indirect
+	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2 // indirect
+	golang.org/x/net v0.0.0-20210410081132-afb366fc7cd1
+	golang.org/x/sys v0.0.0-20210414055047-fe65e336abe0
+	google.golang.org/genproto v0.0.0-20210413151531-c14fb6ef47c3 // indirect
+	google.golang.org/grpc v1.37.0
 )
 
 replace github.com/couchbase/cbauth => ../goproj/src/github.com/couchbase/cbauth
